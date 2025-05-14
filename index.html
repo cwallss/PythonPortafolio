@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portafolio de Proyectos en Python</title>
+  <title>Python Project Portfolio | cwallss</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     * {
@@ -20,6 +20,12 @@
       text-align: center;
       color: #007acc;
       margin-bottom: 2rem;
+    }
+    .intro {
+      max-width: 800px;
+      margin: 0 auto 2rem auto;
+      font-size: 1rem;
+      color: #444;
     }
     .grid {
       display: grid;
@@ -60,46 +66,87 @@
 </head>
 <body>
 
-  <h1>Portafolio de Proyectos en Python</h1>
+  <h1> Python Projects Portfolio</h1>
+
+  <div class="intro">
+    <p>Welcome! This is a collection of Python projects focused on data analysis, statistics, and machine learning. These projects demonstrate practical skills using tools like <strong>pandas, NumPy, scikit-learn, XGBoost</strong> and others.</p>
+    <p>Click on any project below to view the interactive notebook.</p>
+  </div>
 
   <div class="grid">
-
-    <div class="card"><a href="Build a decision tree.html" target="_blank">Build a Decision Tree</a><p>Clasificación mediante árboles de decisión.</p></div>
-    <div class="card"><a href="Build an XGBoost model.html" target="_blank">Build an XGBoost Model</a><p>Modelo de clasificación avanzada con XGBoost.</p></div>
-    <div class="card"><a href="Build a K-means model.html" target="_blank">Build a K-means Model</a><p>Agrupamiento no supervisado con K-means.</p></div>
-    <div class="card"><a href="Build a Naive Bayes model.html" target="_blank">Build a Naive Bayes Model</a><p>Clasificación probabilística usando Naive Bayes.</p></div>
-    <div class="card"><a href="Build a random forest model.html" target="_blank">Build a Random Forest Model</a><p>Ensamblado de árboles para clasificación robusta.</p></div>
-
-    <div class="card"><a href="Course 3 Automatidata project lab.html" target="_blank">Course 3: Automatidata Lab</a><p>Laboratorio práctico de análisis de datos.</p></div>
-    <div class="card"><a href="Course 5 Automatidata project lab.html" target="_blank">Course 5: Automatidata Lab</a><p>Ejercicio de ciencia de datos aplicado.</p></div>
-    <div class="card"><a href="Course 6 Automatidata project lab.html" target="_blank">Course 6: Automatidata Lab</a><p>Modelado y visualización de datos reales.</p></div>
-
-    <div class="card"><a href="Dataframes with pandas.html" target="_blank">Dataframes with Pandas</a><p>Manejo y exploración de datos tabulares.</p></div>
-    <div class="card"><a href="Dictionaries & sets.html" target="_blank">Dictionaries & Sets</a><p>Estructuras de datos en Python.</p></div>
-
-    <div class="card"><a href="Evaluate simple linear regression.html" target="_blank">Evaluate Simple Linear Regression</a><p>Evaluación de modelo lineal simple.</p></div>
-    <div class="card"><a href="Explore descriptive statistics.html" target="_blank">Explore Descriptive Statistics</a><p>Medidas estadísticas y exploración inicial.</p></div>
-    <div class="card"><a href="Explore hypothesis testing.html" target="_blank">Explore Hypothesis Testing</a><p>Pruebas de hipótesis estadísticas.</p></div>
-    <div class="card"><a href="Explore probability distributions.html" target="_blank">Explore Probability Distributions</a><p>Análisis de distribuciones estadísticas.</p></div>
-    <div class="card"><a href="Explore sampling.html" target="_blank">Explore Sampling</a><p>Muestreo y métodos de selección de datos.</p></div>
-    <div class="card"><a href="Hypothesis testing with Python.html" target="_blank">Hypothesis Testing with Python</a><p>Aplicación de pruebas de hipótesis en Python.</p></div>
-
-    <div class="card"><a href="Perform feature engineering.html" target="_blank">Perform Feature Engineering</a><p>Preparación de variables para modelado.</p></div>
-    <div class="card"><a href="Perform logistic regression.html" target="_blank">Perform Logistic Regression</a><p>Clasificación binaria con regresión logística.</p></div>
-    <div class="card"><a href="Perform multiple linear regression.html" target="_blank">Perform Multiple Linear Regression</a><p>Regresión con múltiples predictores.</p></div>
-    <div class="card"><a href="Run simple linear regression.html" target="_blank">Run Simple Linear Regression</a><p>Implementación básica de regresión lineal.</p></div>
-
+    <div class="card">
+      <a href="Build a decision tree.html" target="_blank">Build a Decision Tree</a>
+      <p>Build a classification model using decision trees, analyze the split criteria, and evaluate performance.</p>
+    </div>
+    <div class="card">
+      <a href="Build an XGBoost model.html" target="_blank">Build an XGBoost Model</a>
+      <p>Apply XGBoost to classification problems and optimize hyperparameters for better accuracy.</p>
+    </div>
+    <div class="card">
+      <a href="Perform multiple linear regression.html" target="_blank">Multiple Linear Regression</a>
+      <p>Use multiple predictors to model a numerical outcome and interpret the model coefficients.</p>
+    </div>
+    <div class="card">
+      <a href="Evaluate simple linear regression.html" target="_blank">Simple Linear Regression</a>
+      <p>Model a linear relationship between two variables and assess its significance and residuals.</p>
+    </div>
+    <div class="card">
+      <a href="Perform logistic regression.html" target="_blank">Logistic Regression</a>
+      <p>Classify binary outcomes using logistic regression and evaluate model effectiveness.</p>
+    </div>
+    <div class="card">
+      <a href="Perform feature engineering.html" target="_blank">Feature Engineering</a>
+      <p>Prepare raw data for modeling by transforming and encoding variables.</p>
+    </div>
+    <div class="card">
+      <a href="Explore hypothesis testing.html" target="_blank">Hypothesis Testing</a>
+      <p>Apply statistical tests (t-tests, chi-square) to support or reject hypotheses.</p>
+    </div>
+    <div class="card">
+      <a href="Explore probability distributions.html" target="_blank">Probability Distributions</a>
+      <p>Visualize and compare theoretical and empirical distributions of data.</p>
+    </div>
+    <div class="card">
+      <a href="Explore sampling.html" target="_blank">Explore Sampling</a>
+      <p>Understand sampling methods and how sample size affects results.</p>
+    </div>
+    <div class="card">
+      <a href="Build a K-means model.html" target="_blank">K-means Clustering</a>
+      <p>Apply K-means to group observations and visualize clustering results.</p>
+    </div>
+    <div class="card">
+      <a href="Build a random forest model.html" target="_blank">Random Forest</a>
+      <p>Train an ensemble of decision trees for classification and measure feature importance.</p>
+    </div>
+    <div class="card">
+      <a href="Build a Naive Bayes model.html" target="_blank">Naive Bayes</a>
+      <p>Classify categorical outcomes using probabilistic modeling with independence assumptions.</p>
+    </div>
+    <div class="card">
+      <a href="Explore descriptive statistics.html" target="_blank">Descriptive Statistics</a>
+      <p>Summarize data using central tendency, variability, and distribution shape.</p>
+    </div>
+    <div class="card">
+      <a href="Run simple linear regression.html" target="_blank">Run Linear Regression</a>
+      <p>Apply and visualize simple linear regression using Python libraries.</p>
+    </div>
+    <div class="card">
+      <a href="Hypothesis testing with Python.html" target="_blank">Hypothesis Testing with Python</a>
+      <p>Run statistical tests in Python to validate assumptions about populations.</p>
+    </div>
+    <div class="card">
+      <a href="Course 5 Automatidata project lab.html" target="_blank">Automatidata Lab (Course 5)</a>
+      <p>Course project: apply machine learning techniques to a real-world dataset.</p>
+    </div>
+    <div class="card">
+      <a href="Course 6 Automatidata project lab.html" target="_blank">Automatidata Lab (Course 6)</a>
+      <p>Course project: explore end-to-end data analysis and reporting in Python.</p>
+    </div>
   </div>
 
   <footer>
-    © 2025 | cwallss · Portafolio de Python
+    © 2025 | cwallss · Python Portfolio
   </footer>
 
 </body>
 </html>
-
-
-
-
-
-</body></html>
